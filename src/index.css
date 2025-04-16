@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background-color: #1F1F1F;
+  min-height: 100vh;
+}
+
+/* Efeito de dots no fundo */
+.bg-dots {
+  background-image: radial-gradient(rgba(255, 255, 255, 0.1) 1px, transparent 1px);
+  background-size: 24px 24px;
+}
+
+.test-tailwind {
+  @apply bg-blue-500 text-white p-4 rounded-lg;
+} 
