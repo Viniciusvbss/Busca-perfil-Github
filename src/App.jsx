@@ -1,5 +1,4 @@
 import { useState } from 'react';
-import githubLogo from '/images/image 1.png'
 
 // Componente principal App
 function App() {
@@ -56,7 +55,7 @@ function App() {
           {/* Logo e Título */}
           <div className="flex flex-col sm:flex-row items-center gap-2 mb-6 sm:mb-10">
             <img 
-              src={githubLogo}
+              src="/images/image 1.png"
               alt="GitHub Logo"
               className="w-16 h-16 sm:w-14 sm:h-14"
             />
